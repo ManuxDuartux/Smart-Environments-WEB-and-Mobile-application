@@ -1,0 +1,100 @@
+/* src/styles/LoginPage.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #1e3c72, #2a5298); /* Gradiente azul escuro para azul médio */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+}
+
+.login-form-container {
+  background: #f9fafb; /* cinza muito claro quase branco */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+.login-title {
+  font-size: 28px;
+  color: #1e3c72; /* azul escuro */
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.input-group {
+  margin-bottom: 22px;
+  text-align: left;
+}
+
+.input-group label {
+  font-weight: 600;
+  color: #34495e; /* azul acinzentado escuro */
+  display: block;
+  margin-bottom: 6px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 14px 12px;
+  border: 1.5px solid #bdc3c7; /* cinza claro */
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #2980b9; /* azul vibrante */
+  box-shadow: 0 0 8px #2980b9aa;
+}
+
+.login-button {
+  background-color: #2980b9; /* azul vibrante */
+  color: white;
+  border: none;
+  padding: 14px 0;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #1e3c72; /* azul escuro */
+}
+
+.forgot-password-link {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.forgot-password-link p {
+  font-size: 14px;
+  color: #34495e;
+}
+
+.forgot-password-link a {
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.forgot-password-link a:hover {
+  text-decoration: underline;
+  color: #1e3c72;
+}

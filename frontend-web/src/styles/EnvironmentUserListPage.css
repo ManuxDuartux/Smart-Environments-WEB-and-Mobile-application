@@ -1,0 +1,173 @@
+/* Container */
+.environment-user-list-container {
+  padding: 20px;
+  background: linear-gradient(to bottom right, #2c3e50, #34495e);
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: #ecf0f1;
+}
+
+/* Header */
+.header-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #e67e22;
+  margin-bottom: 10px;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #bdc3c7;
+  margin-bottom: 20px;
+}
+
+/* Dropdown label */
+.environment-user-list-container label {
+  display: block;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+  color: #ffffff;
+}
+
+.environment-select {
+  display: block;
+  margin: 0 auto 30px auto;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  max-width: 300px;
+  width: 100%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  background-color: #f39c12 !important; /* laranja viva */
+  color: #2c3e50 !important;            /* texto escuro */
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/* Table */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #2c3e50;
+  border-radius: 8px;
+  overflow: hidden;
+  color: #ecf0f1;
+}
+
+.user-table th,
+.user-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #3d566e;
+}
+
+.user-table th {
+  background-color: #34495e;
+  font-weight: bold;
+}
+
+/* Edit and Save buttons */
+.edit-button,
+.user-table button {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover,
+.user-table button:hover {
+  background-color: #c76a1b;
+}
+
+/* Input for inline edit */
+.user-table input[type="number"] {
+  width: 60px;
+  padding: 6px;
+  margin-right: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #ecf0f1;
+  color: #2c3e50;
+}
+
+/* Botão para simulação */
+.simulation-button {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.simulation-button:hover {
+  background-color: #c76a1b;
+}
+
+.simulation-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* Sliders */
+
+.slider-range {
+  width: 100px !important;      /* tamanho reduzido */
+  max-width: 100px !important;  /* garantir limite */
+  accent-color: #e67e22;
+  vertical-align: middle;
+  margin-top: 6px;
+}
+
+
+
+/* Colunas da tabela */
+.user-table th:nth-child(1),
+.user-table td:nth-child(1) {
+  width: 40%;
+}
+
+.user-table th:nth-child(2),
+.user-table td:nth-child(2) {
+  width: 25%;
+}
+
+.user-table th:nth-child(3),
+.user-table td:nth-child(3) {
+  width: 35%;
+}
+
+/* Email */
+.user-table td small {
+  display: block;
+  color: #bdc3c7;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+/* owner highlight */
+.owner-label {
+  font-weight: bold;
+  color: #f39c12;
+  margin-left: 5px;
+}
